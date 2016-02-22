@@ -1,0 +1,97 @@
+body {
+  background-color: pink;
+}
+ul {
+
+  padding-left: 30px;
+  font-size: 30px;
+  color: green;
+  list-style-type: none;
+
+}
+li {
+  border: 1px solid black;
+  display: inline;
+  margin: 25px;
+}
+
+.hamburgler  img{
+  display: none;
+}
+
+.hamburgermenu img{
+  display: none;
+}
+
+.navclass {
+  width: 800px;
+  border: 2px solid black;
+}
+
+/* Tablet - portrait */
+
+@media only screen and (max-width: 1220px){
+  body {
+    background-color: blue;
+  }
+  ul {
+  padding: 0px;
+  font-size: 20px;
+  }
+  li {
+    margin: 5px;
+    border: none;
+  }
+  .hamburgler  img{
+    width: 550px;
+    display: inline;
+  }
+  .navclass {
+    width: 500px;
+    border: 2px solid black;
+  }
+  .hamburgermenu img{
+    display: none;
+  }
+
+}
+
+/* Phone */
+
+@media only screen and (max-width: 768px){
+  body {
+    background-color: lightgreen;
+  }
+  ul {
+  padding: 0px;
+  font-size: 20px;
+  display: inline;
+  display:none;
+  }
+  li {
+    margin: 5px;
+    display: block;
+    border: none;
+  }
+  .hamburgler img{
+    width: 200px;
+    display: inline;
+  }
+  .navclass {
+    width: 400px;
+    border: none;
+
+  }
+  .hamburgermenu img{
+    display: inline;
+    float: right;
+    width: 100px;
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+  p {
+    display: none;
+  }
+
+}
